@@ -1,12 +1,20 @@
 # symfony-vue
 symfony-api + vue-vuex-jwt
 
-cd backend
-composer install
-modify backend/app/config/parameters.yml
-bin/console server:run 8080
+run backend command:
 
+`cd backend`
 
-cd frontend
-npm install
-npm run dev
+`composer install`
+
+ps: (modify backend/app/config/parameters.yml)
+
+`bin/console server:run 8080`
+
+run frontend command:
+
+`cd frontend`
+
+`npm install`
+
+`npm run dev`
